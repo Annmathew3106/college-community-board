@@ -1,2 +1,48 @@
 
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+/* Sidebar */
+nav {
+  width: 220px;
+  height: 100vh;
+  background-color: #5b4bb7;
+  color: white;
+  padding: 20px;
+}
+
+nav h2 {
+  margin-top: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 15px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #7a6de0;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  padding: 30px;
+  background-color: #f5f5f5;
+}
