@@ -1,0 +1,63 @@
+/* Page background gradient for year pages */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0f7ff, #f9e6fa, #e6ddfa);
+    font-family: Arial, sans-serif;
+}
+/* Sidebar Navbar */
+nav {
+    width: 220px;
+    height: 100vh;
+    background: linear-gradient(180deg, #c7e9f7, #e9d5f5, #d6ccf8);
+    color: #2c2c54;
+    padding: 20px;
+    box-sizing: border-box;
+    font-weight: bold; /* make all navbar text bold */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 15px 0;
+    position: relative; /* required for dropdown positioning */
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #2c2c54;
+    font-weight: bold; /* bold font */
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: linear-gradient(90deg, #dbeafe, #f3e8ff); /* same hover as homepage */
+}
+
+/* Dropdown menu */
+.doubtsection .dropdown {
+  display: none;
+}
+
+.doubtsection:hover .dropdown {
+  display: block;
+  background-color: white;
+  color: black;
+ box-shadow: 5px 5px 5px rgba(183, 27, 27, 0.808),
+            -5px -5px 5px rgba(248, 128, 128, 0.808);
+  border-radius: 10%;
+}
+
+.doubtsection a:hover {
+  color: rgb(0, 0, 0);
+}
+
+
