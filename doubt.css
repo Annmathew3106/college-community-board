@@ -38,6 +38,8 @@ nav a {
   display: block;
   padding: 8px;
   border-radius: 5px;
+  font-size: larger;
+  font-weight: bold;
 }
 
 nav a:hover {
@@ -54,8 +56,8 @@ nav a:hover {
   display: block;
   background-color: white;
   color: black;
- box-shadow: 5px 5px 5px rgba(183, 27, 27, 0.808),
-            -5px -5px 5px rgba(248, 128, 128, 0.808);
+ box-shadow: 5px 5px 5px rgba(51, 161, 191, 0.808),
+            -5px -5px 5px rgba(48, 185, 223, 0.808);
   border-radius: 10%;
 }
 
