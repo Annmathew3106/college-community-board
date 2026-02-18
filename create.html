@@ -8,5 +8,80 @@
 </head>
 <body>
     <h1 >Your doubt today is someone else’s solution tomorrow</h1>
+    <form action="create.php" method="post" class="form">
+        <label for="name">NAME</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <label for="year">YEAR</label>
+               <select id="year" name="year" required>
+                <option value="">Select your year</option>
+            <option value="1st Year">1st Year</option>
+            <option value="2nd Year">2nd Year</option>
+            <option value="3rd Year">3rd Year</option>
+            <option value="4th Year">4th Year</option>
+                    </select>
+        <br>
+        <br>
+        <label for="branch">BRANCH</label>
+        <select id="branch" name="branch" required>
+            <option value="">Select your branch</option>
+            <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+            <option value="MECH">MECH</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="subject">SUBJECT</label>
+        <br>
+        <input type="radio" id="academic" name="doubtType" value="academic">
+<label for="academic">Academic</label><br>
+
+<input type="radio" id="exam" name="doubtType" value="exam" required>
+<label for="exam">Exam / Evaluation</label><br>
+
+<input type="radio" id="technical" name="doubtType" value="technical" required>
+<label for="technical">Technical / Coding</label><br>
+
+<input type="radio" id="ktu" name="doubtType" value="ktu" required>
+<label for="ktu">KTU Related</label><br>
+
+<input type="radio" id="project" name="doubtType" value="project" required>
+<label for="project">Project</label><br>
+
+<input type="radio" id="career" name="doubtType" value="career" required>
+<label for="career">Career Guidance</label><br>
+
+<input type="radio" id="general" name="doubtType" value="general" required>
+<label for="general">General Doubt</label>
+
+<br>
+<br>
+
+<label for="sem">SEMESTER</label>
+<select id="sem" name="sem" required>
+    <option value="">Select your semester</option>
+    <option value="1st Semester">1st Semester</option>
+    <option value="2nd Semester">2nd Semester</option>
+    <option value="3rd Semester">3rd Semester</option>
+    <option value="4th Semester">4th Semester</option>
+    <option value="5th Semester">5th Semester</option>
+    <option value="6th Semester">6th Semester</option>
+    <option value="7th Semester">7th Semester</option>
+    <option value="8th Semester">8th Semester</option>
+</select>
+<br>
+<br>
+        <label for="text">DOUBT</label>
+        <br>
+        <br>
+        <textarea id="text" name="text" rows="10" cols="100" required placeholder="TYPE YOUR DOUBT HERE"></textarea>
+        <br>
+        <button type="submit" class="submit">Submit</button>
+        <button type="reset" class="reset">Reset</button>
+       
 </body>
 </html>
